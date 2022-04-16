@@ -27,9 +27,9 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="org.postgresql.Driver" />
-        <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/my_db?useSSL=false&amp;serverTimezone=UTC" />
-        <property name="user" value="postgres" />
-        <property name="password" value="123456qw" />
+        <property name="jdbcUrl" value="postgres://uqrddisfyaerhs:652aa36e7673783a2b215ef89664399c2d5e88a5c8011dd8d9b67ec5af470a44@ec2-52-48-159-67.eu-west-1.compute.amazonaws.com:5432/d5h6c17tv2tchf" />
+        <property name="user" value="uqrddisfyaerhs" />
+        <property name="password" value="652aa36e7673783a2b215ef89664399c2d5e88a5c8011dd8d9b67ec5af470a44" />
     </bean>
 
     <bean id="sessionFactory"
