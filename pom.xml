@@ -195,7 +195,7 @@
 <!--              </configuration>-->
 <!--            </execution>-->
 <!--          </executions>-->
-<!--        jdbc:postgresql://localhost:5432/my_db fgd      </plugin>-->
+<!--        jdbc:postgresql://localhost:5432/my_db fg     </plugin>-->
 
       </plugins>
     </pluginManagement>
